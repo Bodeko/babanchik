@@ -1,0 +1,308 @@
+
+a{
+    text-decoration: none;
+}
+h1{
+    padding: 5%;
+}
+h4{
+    padding: 5%;
+}
+img{
+    max-width: 100%;
+}
+
+/* -------------------------------------------  Intro  ------------------------------------------- */
+
+#index-intro-main-block{
+    padding: 5% 10% 5% 10%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#index-intro-left-half{
+    float: left;
+}
+#index-intro-right-half{
+    float: left;
+
+}
+#index-register-button{
+    color: #FFFFFF;
+    margin: 5%;
+}
+#security-image{
+    max-width: 10%;
+    padding: 5%;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#index-intro-second-block{}
+#index-intro-second-block-boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.index-numbered-box{
+}
+.index-numbered-box-content{
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 2%;
+    z-index: 1001;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+.index-number-box{
+    float: left;
+    background: #FFFFFF;
+    color: #587897;
+    border-radius: 16px;
+    padding: 2% 4% 2% 4%;
+    z-index: 1002;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    width: fit-content;
+}
+
+/* -------------------------------------------  Gallery  ------------------------------------------- */
+
+#index-gallery-main-block{
+    padding: 5% 10% 5% 10%;
+
+
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    grid-template-rows: 1fr;
+
+}
+#index-gallery-secondary-block{
+     padding: 0 10% 0 10%;
+
+
+     display: grid;
+     grid-template-columns: 1fr 3fr;
+
+ }
+
+#index-gallery-projtypes{
+    float: left;
+}
+/* #index-gallery-projtypes-list{} */
+#index-gallery-projtypes-list.ul{
+    margin: 1%;
+}
+
+#index-gallery-freelancers{
+    float: left;
+}
+#index-gallery-freelancers-main-blocks{
+    float: left;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.index-gallery-freelancer-block{
+    aspect-ratio: 1;
+    display: block;
+    float: left;
+    width: 94%;
+    margin: 2%;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    border-radius: 16px;
+
+    }
+.index-gallery-freelancer-block img{
+    aspect-ratio: 1;
+    object-fit: fill;
+
+    width: 100%;
+    height: 100%;
+}
+#index-gallery-freelancers-secondary-blocks{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+
+    padding: 2%;
+}
+#index-gallery-secondary-pictures{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    padding: 2%;
+}
+.index-gallery-secondary-picture {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+div.index-gallery-secondary-picture {
+    aspect-ratio: 1;
+}
+.index-gallery-secondary-picture img{
+    object-fit: cover;
+}
+#index-gallery-secondary-linkbox{
+    padding: 10%;
+    float: left;
+    display: block;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    text-align: center;
+    border-radius: 16px;
+}
+#index-gallery-secondary-linkbox a{
+    vertical-align: center;
+}
+
+#index-gallery-specs{
+    width: 100%;
+}
+.index-gallery-spec{
+    float: left;display: block;
+    background: #FFFFFF;
+    border-style: solid;
+    border-radius: 16px;
+    margin: 1%;
+    padding: 1%;
+}
+#index-gallery-spec-title{
+    color: #587897;
+}
+#index-gallery-spec-amount{
+    color: #587897;
+}
+
+
+/* -------------------------------------------  Promotional  ------------------------------------------- */
+#index__promotional__main-block{
+
+    padding: 5% 10% 5% 10%;
+}
+#index__promotional__card-block {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.index__promotional__card {
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    border: 2px black solid;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+#index__promotional__why-us-block{
+    flex: initial;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20% 0 20%;
+
+}
+#index__promotional__why-us-block__image-block{
+    float: left;
+    flex: initial;
+
+}
+#index__promotional__why-us-block__info-block{
+    float: left;
+    flex: initial;
+
+    padding: 5%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+#index__promotional__why-us-block__info-block .block-label-bordered-black{
+    padding: 25%;
+}
+
+
+/* -------------------------------------------  Projects  ------------------------------------------- */
+
+#index-projects-main-block{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    padding: 5% 10% 5% 10%;
+}
+#index-projects-secondary-block{
+    display: grid;
+    padding: 2%;
+}
+
+#index-projects-projtypes{
+    float: left;
+    padding: 2%;
+}
+/* #index-projects-projtypes-list{} */
+#index-projects-projtypes-list.ul{
+}
+
+#index-projects-picture-block img{
+    border-radius: 16px;
+    height: auto;
+}
+#index-projects-secondary-linkbox{
+    float: left;
+    width: 100%;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+
+#index-projects-specs{
+    }
+.index-projects-spec{
+    float: left;display: block;
+    background: #FFFFFF;
+    border-style: solid;
+    border-radius: 16px;
+    margin: 1%;
+    padding: 1%;
+}
+#index-projects-spec-title{
+    color: #587897;
+}
+#index-projects-spec-amount{
+    color: #587897;
+}
+
+/* -------------------------------------------  Info  ------------------------------------------- */
+
+#index-info__main{
+    padding: 5% 10% 5% 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#index-info__left-half{
+    padding: 4%;
+    float: left;
+}
+#index-info__right-half{
+    padding: 4%;
+    float: left;
+}
+
+
+
+
+
+#index-faq__main {
+    padding: 5% 10% 5% 10%;
+}

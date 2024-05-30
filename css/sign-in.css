@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#sign-in-block-main{
+    margin: 0 10% 0 10%;
+    background: #d0daea;
+    opacity: 90%;
+    padding: 10% 5% 10% 5%;
+}
+#sign-in-block-picture{
+
+}
+input{
+    opacity: 50%;
+    float: right;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 3%;
+    margin: 0 0 0 0;
+}
+#sign-in-button{
+    width: 100%;
+    margin: 10% 0 0 0;
+    padding: 3% 0 3% 0;
+}

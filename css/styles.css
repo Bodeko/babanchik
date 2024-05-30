@@ -1,0 +1,120 @@
+body{
+    background: #D6DFED;
+    font-family: sans-serif;
+}
+
+.centered-text{
+    text-align: center;
+}
+.centered-content{
+    align-content: center;
+}
+.fixed{
+    position:fixed;
+    top:0px;
+    right:0px;
+}
+
+.errmsg{
+    border-radius: 4px;
+    margin: 0 4px 0 4px;
+    background-color: #FFAFAF;
+    font-size: smaller;
+    padding: 2%;
+    border-radius: 16px;
+}
+/*.warning-label{
+    background-color: #DDAAAA;
+    border-radius: 16px;
+} */
+
+.block-label-bordered{
+    text-decoration: none;
+    display: inline-block;
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+    border-width: 2px;
+    border-radius: 16px;
+    border-style: solid;
+    /* padding: 2%; */
+    margin: 2%;
+}
+
+.block-label-bordered-black{
+    text-decoration: none;
+    display: inline-block;
+    border-color: #000000;
+    background: #FFFFFF;
+    border-width: 2px;
+    border-radius: 16px;
+    border-style: solid;
+    /* padding: 2%; */
+    margin: 2%;
+}
+
+.block-label-white{
+    text-decoration: none;
+    display: inline-block;
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 16px;
+    padding: 3%;
+}
+.block-label-blue{
+    text-decoration: none;
+    display: inline-block;
+    background: #587897;
+    color: #FFFFFF;
+    border-radius: 16px;
+    padding: 3%;
+}
+.block-label-red{
+    text-decoration: none;
+    display: inline-block;
+    background: #F77858;
+    color: #FFFFFF;
+    border-radius: 16px;
+    padding: 3%;
+}
+
+input{
+    opacity: 50%;
+    float: right;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 3%;
+    margin: 0 0 0 0;
+}
+
+.rounded-image{
+    float: left;
+    display: block;
+    border-radius: 50%;
+}
+.smooth-image{
+    float: left;
+    display: block;
+    border-radius: 10%;
+}
+
+.transparent-input{
+    opacity: 50%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 3%;
+    margin: 0 0 0 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.double-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

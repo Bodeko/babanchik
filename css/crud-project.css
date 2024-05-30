@@ -1,0 +1,33 @@
+form, .commentary {
+    display: grid;
+    margin: 0 10% 0 10%;
+    background: #d0daea;
+    opacity: 90%;
+    padding: 10%;
+}
+
+form{
+
+}
+
+.commentary{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.payment{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+textarea#description {
+    aspect-ratio: 1.33333333333333;
+}
+label#price {
+    text-align: right;
+}
+label#currency {
+    text-align: center;
+    align-content: center;
+}
+body{
+    background: #FFFFFF;
+}

@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#register-block-main{
+    margin: 0 10% 0 10%;
+    background: #d0daea;
+    opacity: 90%;
+    padding: 10% 5% 10% 5%;
+}
+#register-block-picture img{
+
+    padding: 10% 5% 10% 5%;
+    height: 40%;
+}
+
+#role{
+    offset-position: 0 10px;
+}
+
+input{
+    opacity: 50%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 3%;
+    margin: 0 0 0 0;
+
+}
+#register-button{
+    width: 100%;
+}
