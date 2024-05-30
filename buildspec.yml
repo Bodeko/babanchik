@@ -7,9 +7,9 @@ version: 0.2
 
 env:
   variables:
-    AWS_DEFAULT_REGION: "us-west-2"
-    AWS_ACCOUNT_ID    : "590183979923"
-    ECR_REPO_NAME     : "webapp"
+    AWS_DEFAULT_REGION: "eu-central-1"
+    AWS_ACCOUNT_ID    : "905418307264"
+    ECR_REPO_NAME     : "castomfm.com"
     ECR_IMAGE_TAG     : "latest"
 
 phases:
